@@ -1,0 +1,41 @@
+commit 3f8f267cb7553b05f3b26624eb125ed5c7a61c55
+Author: Emmett Lalish <elalish@google.com>
+Date:   Thu Nov 5 16:32:58 2020 -0800
+
+    Refactor scene-graph (#1692)
+    
+    * moving useful 3dom pieces into model-viewer
+    
+    * simplified
+    
+    * make tests compile
+    
+    * materials in array order, with default
+    
+    * moved scene-graph folder
+    
+    * removed 3dom dependency
+    
+    * added tests
+    
+    * remove unused
+    
+    * removed modelGraft
+    
+    * added onUpdate callback
+    
+    * removed 3dom package
+    
+    * disable linting, as it was only used on 3dom
+    
+    * fix IE11 tests
+    
+    * added renderCount to scene for easier testing and debug
+    
+    * fix teardown
+    
+    * removed duplicate tests
+    
+    * add test logging
+    
+    * maybe a problem with intersectionObserver?
